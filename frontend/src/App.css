@@ -1,0 +1,84 @@
+
+.form select {
+  padding: 11px;
+  border: 1.5px solid #cbd5e1;
+  border-radius: 5px;
+  font-size: 1rem;
+  background: #f1f5f9;
+  transition: border 0.2s, box-shadow 0.2s;
+  margin-bottom: 8px;
+}
+
+.form select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.08);
+  outline: none;
+}
+
+.form option {
+  background: #fff;
+  color: #1e293b;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="password"] {
+  margin-bottom: 8px;
+}
+
+.form label {
+  font-weight: 500;
+  color: #334155;
+  margin-bottom: 4px;
+  display: block;
+  letter-spacing: 0.2px;
+}
+
+.form {
+  /* Add a subtle border and shadow for more depth */
+  border: 1.5px solid #e0e7ef;
+  box-shadow: 0 6px 32px rgba(37,99,235,0.06);
+}
+
+.form h2 {
+  font-size: 1.5rem;
+  color: #1e293b;
+  margin-bottom: 18px;
+  letter-spacing: 1px;
+}
+
+.form button {
+  margin-top: 8px;
+  font-size: 1.08rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 8px rgba(37,99,235,0.08);
+}
+
+.form button:active {
+  background: #1e40af;
+}
+
+@media (max-width: 500px) {
+  .form {
+    padding: 14px 4px;
+    max-width: 99vw;
+  }
+}
+.dashboard-container {
+  max-width: 600px;
+  margin: 48px auto 0 auto;
+  padding: 32px 24px;
+  background: #f8fafc;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(37,99,235,0.08);
+  text-align: center;
+  border: 1.5px solid #e0e7ef;
+}
+.dashboard-container h2 {
+  color: #2563eb;
+  font-size: 2rem;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
