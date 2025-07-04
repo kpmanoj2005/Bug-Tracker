@@ -108,11 +108,3 @@ PORT=5000
 ```
 
 ---
-
-## 📌 Future Enhancements
-
-- [x] Project + Bug filtering & sorting
-- [ ] Add status options (open, fixed, closed)
-- [ ] Admin dashboard
-- [ ] Email notifications
-- [ ] File uploads for bug reports
