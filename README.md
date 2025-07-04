@@ -101,9 +101,8 @@ npm start
 ## 🧪 .env Example
 
 ```ini
-MONGO_URI=mongodb://127.0.0.1:27017/bugtracker
-JWT_SECRET=your_secret_key
-PORT=5000
+MONGO_URI=mongodb://localhost:27017/fullstack_app
+JWT_SECRET=somesecretkey
 ```
 
 ---
